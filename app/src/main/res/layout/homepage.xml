@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:titleTextColor="#000000"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toolbarTitle"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title"
+                android:textSize="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_autorenew_black_24dp"
+                android:onClick="refresh_page"
+                android:layout_gravity="right"
+                android:tint="@color/white"
+                android:paddingRight="10dp"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="35dp"
+            android:src="@drawable/settings"
+            android:onClick="availability_page"
+            android:layout_toLeftOf="@+id/current_availability"
+            android:paddingRight="3dp" />
+
+
+        <TextView
+            android:id="@+id/current_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:30 am - 12:30 pm"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="35dp"
+            android:src="@drawable/garbage"
+            android:onClick="delete_availability"
+            android:layout_toRightOf="@+id/current_availability"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/user_card_scroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+            android:id="@+id/user_card_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

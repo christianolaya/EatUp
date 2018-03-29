@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "623186625333",
+    "firebase_url": "https://eatup-7cc9d.firebaseio.com",
+    "project_id": "eatup-7cc9d",
+    "storage_bucket": "eatup-7cc9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623186625333:android:324ac54e320696d0",
+        "android_client_info": {
+          "package_name": "com.example.micha.eatup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623186625333-2lje0tnkas62tto7sncsbouv7r79pui2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.micha.eatup",
+            "certificate_hash": "ea6f6209edab54c66e59b6b8373bd56427f74e9b"
+          }
+        },
+        {
+          "client_id": "623186625333-qhhe2320h1fejdr3h1tlcj73boruc1gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ6OXx5uYcduR3X8gBTQIk-PZdEV3rnZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623186625333-qhhe2320h1fejdr3h1tlcj73boruc1gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

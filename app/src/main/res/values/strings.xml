@@ -1,0 +1,27 @@
+    <resources>
+    <string name="app_name">EatUp</string>
+    <string name="title_activity_first_screen"></string>
+    <string name="toolbarTitle">EatUp</string>
+    <string name="facebook_register_text">Click the Button Below to Login with Facebook</string>
+    <string name="facebook_register">Login</string>
+    <string name="facebook_app_id">1882948802019906</string>
+    <string name="fb_login_protocol_scheme">fb1882948802019906</string>
+
+        <string name="start">When are you going to be free?</string>
+    <string name="end">End</string>
+    <string name="duration">For how long?</string>
+    <string name="location">Location</string>
+    <string name="submit">Submit</string>
+    <string-array name="location_array">
+        <item>DUC</item>
+        <item>BD</item>
+        <item>Law Cafe</item>
+        <item>Holmes</item>
+        <item>Eta\'s</item>
+        <item>Hillman</item>
+        <item>Stanley\'s</item>
+        <item>Bauer</item>
+    </string-array>
+    <string name="title_activity_homepage"></string>
+
+</resources>
